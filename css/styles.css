@@ -903,19 +903,10 @@ $$$$$$$$$$$$$$$$
     border-radius: 4px;
     border: none;
 
-
-}
-
-.footer-submit-name {
-    display: inline-block;
-
-
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-
     letter-spacing: 0.06em;
-
     color: var(--color-white-text);
 }
 
@@ -923,8 +914,6 @@ $$$$$$$$$$$$$$$$
     fill: var(--color-white-text);
 }
 
-.footer-submit-button:hover,
-.footer-submit-button:focus {}
 
 /*++++++++++footer++++++++++*/
 
@@ -1036,14 +1025,3 @@ $$$$$$$$$$$$$$$$
     letter-spacing: 0.03em;
     color: var(--color-grey-p);
 }
-
-/*++++++++++portfolio-cards++++++++++*/
-
-/*++++++++++button++++++++++*/
-
-/*++++++++++button++++++++++*/
-
-/*++++++++++portfolio-flex++++++++++*/
-
-
-/*++++++++++portfolio-flex++++++++++*/

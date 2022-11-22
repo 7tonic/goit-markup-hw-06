@@ -449,7 +449,6 @@ $$$$$$$$$$$$$$$$
     color: rgba(117, 117, 117, 0.5);
 }
 
-.form-text:hover,
 .form-text:focus {
     border-color: var(--color-light-blue);
 }
@@ -463,13 +462,25 @@ $$$$$$$$$$$$$$$$
 
 .form-checkbox-input {
     appearance: none;
+
 }
 
-.form-check-icon {
-    margin-right: 7px;
-    stroke: var(--color-light-blue);
-    fill: var(--color-light-blue);
-    background-color: var(--color-white-text);
+.custom-checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: #fff;
+    width: 16px;
+    height: 15px;
+    margin-right: 8px;
+    border: 2px solid var(--color-black-logo);
+    border-radius: 2px;
+
+}
+
+.form-checkbox-input:checked+.custom-checkbox {
+    background-color: var(--color-light-blue);
+    border-color: var(--color-light-blue);
 }
 
 .form-link {
